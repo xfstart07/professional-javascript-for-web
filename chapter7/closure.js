@@ -28,6 +28,8 @@ function createFunctions2() {
 	return result;
 }
 
-
 var result2 = createFunctions2();
 console.log(result2[2]);
+
+// 由于闭包会携带包含它的函数的作用域，因此会比其他函数占用更多的内存。
+// 过度使用闭包可能导致内存占用过多，建议只在绝对必要时再考虑使用闭包。
