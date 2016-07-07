@@ -36,8 +36,8 @@ var num = Math.floor(Math.random() * 10 + 1);
 console.log(num);
 
 function selectFrom(lowerValue, upperValue) {
-	var choices = upperValue-lowerValue+1;
-	return Math.floor(Math.random() * choices + lowerValue);
+  var choices = upperValue-lowerValue+1;
+  return Math.floor(Math.random() * choices + lowerValue);
 }
 
 var colors = ["red","green", "blue", "yellow", "black", "purple", "brown"];

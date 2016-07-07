@@ -8,9 +8,9 @@ console.log(obj2.name);
 // 传值
 
 function setName(obj) {
-	obj.name = "Nicholas";
-	obj = new Object();
-	obj.name = "Greg";
+  obj.name = "Nicholas";
+  obj = new Object();
+  obj.name = "Greg";
 }
 var person = new Object();
 setName(person);

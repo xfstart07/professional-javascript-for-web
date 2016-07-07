@@ -8,9 +8,9 @@ console.log(person);
 // 字面量语法
 
 var person2 = {
-	"name": "Nicholas",
-	"age": 29,
-	5: true
+  "name": "Nicholas",
+  "age": 29,
+  5: true
 }
 console.log(person2);
 

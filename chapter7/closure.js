@@ -10,14 +10,11 @@ function createFunctions() {
 			return i;
 		};
 	}
-
 	return result;
 }
 
 var result = createFunctions();
 console.log(result[1]);
-
-
 function createFunctions2() {
 	var result = new Array();
 	for (var i = 0; i < 10; i++) {
@@ -30,6 +27,7 @@ function createFunctions2() {
 
 	return result;
 }
+
 
 var result2 = createFunctions2();
 console.log(result2[2]);

@@ -17,7 +17,7 @@
 
 console.log(sum(10, 10));
 function sum(num1, num2) {
-	return num1 + num2;
+  return num1 + num2;
 }
 
 // ＊ 报错
@@ -41,7 +41,7 @@ function sum(num1, num2) {
 // 每个函数都包含两个非继承而来的方法：apply() 和 call(). 作用相同，变化的是在使用 call() 方法时，传递给函数的参数必须逐个列举出来。
 
 function callSum(num1, num2) {
-	return sum.call(this, num1, num2);
-	// return sum.apply(this, [num1, num2]);
-	// return sum.apply(this, arguments);
+  return sum.call(this, num1, num2);
+  // return sum.apply(this, [num1, num2]);
+  // return sum.apply(this, arguments);
 }

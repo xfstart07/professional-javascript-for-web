@@ -1,22 +1,22 @@
 // 原型链
 
 function SuperType() {
-	this.property = true;
+  this.property = true;
 }
 
 SuperType.prototype.getSuperValue = function() {
-	return this.property;
+  return this.property;
 }
 
 function SubType() {
-	this.subproerty = false;
+  this.subproerty = false;
 }
 
 // 继承 SuperType
 SubType.prototype = new SuperType();
 
 SubType.prototype.getSubValue = function() {
-	return this.subproerty;
+  return this.subproerty;
 }
 
 var instance = new SubType();
@@ -32,7 +32,7 @@ console.log(instance instanceof SubType);
 console.log("------------重写----------");
 
 SubType.prototype.getSuperValue = function() {
-	return false;
+  return false;
 }
 
 console.log(instance.getSuperValue());

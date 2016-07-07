@@ -9,11 +9,11 @@
 var color = "blue";
 
 function changeColor() {
-	if (color === "blue") {
-		color = "red";
-	} else {
-		color = "blue";
-	}
+  if (color === "blue") {
+    color = "red";
+  } else {
+    color = "blue";
+  }
 }
 changeColor();
 console.log("color is now " + color);
@@ -21,11 +21,11 @@ console.log("color is now " + color);
 // 没有块级作用域
 
 if (true) {
-	var color = "blue";
+  var color = "blue";
 }
 console.log(color); // "blue"
 
 for (var i = 0; i <= 3; i++) {
-	console.log(i);
+  console.log(i);
 }
 console.log(i); // 4

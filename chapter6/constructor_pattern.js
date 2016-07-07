@@ -2,12 +2,12 @@
 
 // 构造函数始终都应该以一个大写字母开头，而非构造函数则应该以小写字母开头
 function Person(name, age, job) {
-	this.name = name;
-	this.age = age;
-	this.job = job;
-	this.sayName = function() {
-		console.log(this.name);
-	}
+  this.name = name;
+  this.age = age;
+  this.job = job;
+  this.sayName = function() {
+    console.log(this.name);
+  }
 }
 
 // 当作构造函数使用

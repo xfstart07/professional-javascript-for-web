@@ -5,8 +5,8 @@
 // }
 
 function sum(num1, num2) {
-	return num1 + num2;
-	console.log("Hello world"); // 永远不会执行
+  return num1 + num2;
+  console.log("Hello world"); // 永远不会执行
 }
 console.log(sum(1,2));
 
@@ -19,8 +19,8 @@ console.log(sum(1,2));
 // 关于 arguments 的行为，还有一点比较有意思。那就是它的值永远与对应命名参数的值保持同步。例如：
 
 function doAdd(num1, num2) {
-	arguments[1] = 10;
-	console.log(arguments[0] + num2);
+  arguments[1] = 10;
+  console.log(arguments[0] + num2);
 }
 doAdd(1,2);
 
@@ -37,10 +37,10 @@ doAdd(1,2);
 // 没有重载
 
 function addSomeNumber(num) {
-	return num + 100;
+  return num + 100;
 }
 function addSomeNumber(num) {
-	return num + 200
+  return num + 200
 }
 console.log(addSomeNumber(100)); // 300
 // 后定义的函数覆盖了先定义的函数

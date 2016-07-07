@@ -21,8 +21,8 @@ console.log(colors2);
 // }
 
 if (Array.isArray(colors)) {
-	console.log("true");
+  console.log("true");
 } else {
-	console.log("false");
+  console.log("false");
 }
 
