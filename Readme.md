@@ -1,5 +1,7 @@
 # professional javascript for web 3 edition
 
+JavaScript 高级程序设计(第三版) 的第三章到第八章读书笔记
+
 ## 运行环境
 
 Node 6.2
