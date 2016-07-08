@@ -4,6 +4,10 @@
 
 Node 6.2
 
+## 浏览
+
+建议在 Chrome 下使用 [Octotree](https://github.com/buunguyen/octotree) 插件浏览 Github 项目
+
 ## 目录
 
 [第三章 基本概念](https://github.com/xfstart07/professional-javascript-for-web/tree/master/chapter3)
